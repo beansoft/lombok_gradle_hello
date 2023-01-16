@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    // If you comment out this line, the build of Gradle will fail!
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
+}

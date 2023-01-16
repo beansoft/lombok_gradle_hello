@@ -1,4 +1,4 @@
-package org.example;
+package self.me.matchday.model.entity;
 
 import lombok.Data;
 

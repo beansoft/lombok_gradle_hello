@@ -1,4 +1,4 @@
-package org.example;
+package self.me.matchday.model.entity;
 
 public class Main {
     public static void main(String[] args) {
